@@ -79,3 +79,21 @@ function get_scripts() {
     wp_enqueue_script( 'ben', get_stylesheet_directory_uri() . '/js/scripts.js', array(), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'get_scripts' );
+
+
+//Get SKU next to product price on category pages
+add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_after_shop_loop_item_sku_in_cart', 20, 1);
+function woocommerce_after_shop_loop_item_sku_in_cart( $template )  {
+	global $product;
+	$sku = $product->get_sku();
+	echo $sku;
+}
+
+//Feeling depressed again :(
+// add_filter( 'woocommerce_loop_add_to_cart_link', 'add_product_link' );
+// function add_product_link( $link ) {
+// global $product;
+//     echo '<button class="viewMoreBtn"><a href="' . esc_url( $product->get_permalink( $product->id ) ) . '" >View Product</a></button>';
+// }
+
+// need to sort the fucking styles out, still feel blue

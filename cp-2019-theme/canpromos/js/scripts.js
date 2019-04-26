@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-    console.log('Testing This is useless.......... Latest');
+    console.log('Working');
     $(".single-product button.single_add_to_cart_button").after('<a href="#" class="add-request-quote-button button" rel="noopener noreferrer">Get a quote</>');
     $(".add-request-quote-button").after('<a href="javascript:void(0);"" class="callback" rel="noopener noreferrer">Get a Call Back</>');
     $(".add-to-wishlist-7235").before('<a href="http://canpromos.ca/request-a-quote/" target="_blank" class="add-request-quote-button button" style="margin-bottom:30px;display: block;" rel="noopener noreferrer">Get a quote</a>');
@@ -13,5 +13,6 @@ jQuery(document).ready(function ($) {
     $('button.single_add_to_cart_button').click(function (e) {
         console.log('buy btn pushed.');
     });
-    $('.logged-out .yith-wcwl-add-button.show').hide();
+    $('.logged-out .yith-wcwl-add-button.show, .show_details_button').hide();
 });
+

@@ -17,3 +17,5 @@
 	</a>
 </h3>
 <div class="fusion-price-rating">
+
+
