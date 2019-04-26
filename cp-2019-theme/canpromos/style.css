@@ -216,9 +216,95 @@ li#field_3_10 {
 */
 
 
+/* Woo Cat Page */
+
+/*-- Remove Original Badge From Theme --*/
+span.onsale {
+    display: none;
+}
+
+li.product-grid-view:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+/*-- Custom Badges --*/
+.yith-wcbm-badge-13776:before{
+    content: "\f14a ";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 4px;
+
+}
+.yith-wcbm-badge-13775:before{
+    content: "\f06d ";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 4px;
+
+}
+.yith-wcbm-badge-13773:before{
+    content: "\f155 ";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-right: 4px;
+}
+
+a.show_details_button {
+    display: none !important;
+}
+
+.viewMoreBtn{
+    background-color:red;
+    color:#fff;
+    font-size:17px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.viewMoreBtn:hover{
+    background-color: #d2d3d4;
+    border: 2px solid red;
+
+}
+    
+/* Shake that badge on hover - thats nice */
+
+.yith-wcbm-badge:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 
 /*WooCommerce Single Sales Page*/
-
 
 .woocommerce-cart .woocommerce {
     margin-top: -40px;
