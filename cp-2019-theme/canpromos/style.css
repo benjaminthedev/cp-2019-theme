@@ -7,205 +7,167 @@ Template: Avada
 Version: 1.0.0
 Text Domain:  Avada
 */
-
-
-
 /* -- Home Page -- */
+
 .wcps-items-title a {
-    font-size: 16px !important;
+	font-size: 16px !important;
 }
 h2.heading-new {
-    margin-top: 20px;
-    color: red!important;
+	margin-top: 20px;
+	color: red!important;
 }
-
 /*-- Single Product Page --*/
+
 div#tm-epo-totals {
-    display: none;
+	display: none;
 }
-
 .woocommerce-product-rating {
-    /* margin-bottom: 100px; */
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+	/* margin-bottom: 100px; */
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 }
-
-.product-template-default #custom-handle{
+.product-template-default #custom-handle {
 	margin-top: 0.5em !important;
 }
-
-
-.single-product .slider-input #slider{
+.single-product .slider-input #slider {
 	margin-top: 28px;
-    margin-left: 30px;
+	margin-left: 30px;
 }
-
 .single-product span.sku_wrapper {
-    font-size: 22px;
-    font-weight: 800;
-    color: #000;
+	font-size: 22px;
+	font-weight: 800;
+	color: #000;
 }
-
 .yith-ywraq-add-button.show {
-    margin-top: 40px;
+	margin-top: 40px;
 }
-
 a.compare.button {
-    margin-top: 30px !important;
-    display: block;
+	margin-top: 30px !important;
+	display: block;
 }
-
 a.add-request-quote-button.button, a.compare.button {
-    width: 142px;
-    margin-top: 20px;
-    padding: 13px 29px;
-    line-height: 17px;
-    font-size: 12px;
-    background: red;
-    border-radius: 4px;
-    color: #fff;
-    /* margin-bottom: 250px !important; */
-    text-transform: uppercase;
-    text-align: center;
+	width: 142px;
+	margin-top: 20px;
+	padding: 13px 29px;
+	line-height: 17px;
+	font-size: 12px;
+	background: red;
+	border-radius: 4px;
+	color: #fff;
+	/* margin-bottom: 250px !important; */
+	text-transform: uppercase;
+	text-align: center;
 }
-
-a.add-request-quote-button.button{
-       padding: 13px 35px !important;
+a.add-request-quote-button.button {
+	padding: 13px 35px !important;
 }
-
 a.callback.pum-trigger {
-    padding: 13px 25px;
-    line-height: 17px;
-    font-size: 12px;
-    background: red;
-    border-radius: 3px;
-    color: #fff;
-    margin-top: 12px !important;
-    text-transform: uppercase;
+	padding: 13px 25px;
+	line-height: 17px;
+	font-size: 12px;
+	background: red;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 12px !important;
+	text-transform: uppercase;
 }
-
 a.add_to_wishlist.single_add_to_wishlist.button.alt {
-    padding: 13px 23px;
-    line-height: 17px;
-    font-size: 12px;
-    background: red;
-    border-radius: 3px;
-    color: #fff;
-    margin-bottom: 250px !important;
-    text-transform: uppercase;
+	padding: 13px 23px;
+	line-height: 17px;
+	font-size: 12px;
+	background: red;
+	border-radius: 3px;
+	color: #fff;
+	margin-bottom: 250px !important;
+	text-transform: uppercase;
 }
-
 /* -- Menu Lefthand Side -- */
+
 ul.new-menu-lefty {
-    background: #ed2839;
-    padding: 20px 0px !important;
+	background: #ed2839;
+	padding: 20px 0px !important;
 	border-radius: 6px;
 }
-
 ul.new-menu-lefty li {
-    text-align: center !important;
+	text-align: center !important;
 }
-
 ul.new-menu-lefty li a {
-
-    color: #fff !important;
-    text-align: center !important;
-      font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-	line-height:44px;
+	color: #fff !important;
+	text-align: center !important;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 44px;
 }
-
-ul.new-menu-lefty li a:hover{
-    color:#3c3c3c !important;
+ul.new-menu-lefty li a:hover {
+	color: #3c3c3c !important;
 }
-
 /* -- CSS Widget Price Filter -- */
 
-
 li.fusion-custom-menu-item.fusion-main-menu-search.fusion-last-menu-item {
-    display: none !important;
+	display: none !important;
 }
-
 .fusion-header .search-navigation:after {
-    content: '\f002';
-    font-family: 'Font Awesome\ 5 Free';
-    font-weight: 900;
-    margin-left: 10px;
-    overflow: visible;
-    color: red;
-    float: right;
-    display: block;
-    font-size: 22px;
-    position: initial;
-    margin-top: -45px;
-    z-index: 999999 !important;
+	content: '\f002';
+	font-family: 'Font Awesome\ 5 Free';
+	font-weight: 900;
+	margin-left: 10px;
+	overflow: visible;
+	color: red;
+	float: right;
+	display: block;
+	font-size: 22px;
+	position: initial;
+	margin-top: -45px;
+	z-index: 999999 !important;
 }
-
 .fusion-contact-info {
-    color: #000 !important;
+	color: #000 !important;
 }
-
-
-.ui-slider .ui-slider-handle{
-    top: -0.6em !important;
+.ui-slider .ui-slider-handle {
+	top: -0.6em !important;
 }
-
-.ui-slider .ui-slider-handle:before{
+.ui-slider .ui-slider-handle:before {
 	width: 22px !important;
-    height: 22px !important;
+	height: 22px !important;
 }
-
-.ui-slider .ui-slider-handle:after{
-    width: 12px !important;
-    height: 12px !important;
-}	
-
-#sidebar button.button{
-      margin-top: 20px;
+.ui-slider .ui-slider-handle:after {
+	width: 12px !important;
+	height: 12px !important;
 }
-
+#sidebar button.button {
+	margin-top: 20px;
+}
 /* -- CSS Menus -- */
 
 .fusion-secondary-main-menu {
-    background-color: #3c3c3c !important;
-    padding: 10px 0px !important;
+	background-color: #3c3c3c !important;
+	padding: 10px 0px !important;
 }
-
-.fusion-secondary-header a, .fusion-secondary-header a:hover{
+.fusion-secondary-header a, .fusion-secondary-header a:hover {
 	color: #000 !important;
 }
-
-.fusion-main-menu .button-default{
+.fusion-main-menu .button-default {
 	background: none !important;
-    border: 1px solid;
-    border-radius: 4px;
+	border: 1px solid;
+	border-radius: 4px;
 }
-
 /* -- WooCommerce Styles  -- */
 
 li#field_3_10 {
-    display: none;
+	display: none;
 }
-
-
 /*-- This doesnt work - use JS --*/
+
 .logged-out .yith-wcwl-add-button.show {
-    display: none;
+	display: none;
 }
-
-
-
-
-
 /*-- Hide the btn when not logged in 
 .yith-wcwl-add-button.show {
     display: none!important;
 }
 --*/
-
-
 
 /*
 .product-details-container .woocommerce-Price-currencySymbol:before{
@@ -215,493 +177,377 @@ li#field_3_10 {
 
 */
 
-
 /* Woo Cat Page */
 
 /*-- Remove Original Badge From Theme --*/
-span.onsale {
-    display: none;
-}
 
-li.product-grid-view:hover{
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
+span.onsale {
+	display: none;
+}
+li.product-grid-view:hover {
+	-moz-box-shadow: 0 0 10px #ccc;
+	-webkit-box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc;
 }
 /*-- Custom Badges --*/
-.yith-wcbm-badge-13776:before{
-    content: "\f14a ";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    margin-right: 4px;
 
+.yith-wcbm-badge-13776:before {
+	content: "\f14a ";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	margin-right: 4px;
 }
-.yith-wcbm-badge-13775:before{
-    content: "\f06d ";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    margin-right: 4px;
-
+.yith-wcbm-badge-13775:before {
+	content: "\f06d ";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	margin-right: 4px;
 }
-.yith-wcbm-badge-13773:before{
-    content: "\f155 ";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    margin-right: 4px;
+.yith-wcbm-badge-13773:before {
+	content: "\f155 ";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	margin-right: 4px;
 }
-
 a.show_details_button {
-    display: none !important;
+	display: none !important;
 }
-
-.viewMoreBtn{
-    background-color:red;
-    color:#fff;
-    font-size:17px;
-    border-radius: 10px;
-    width: 100%;
-    padding: 10px;
-    cursor: pointer;
+a.viewMoreBtn {
+	background: red;
+	width: 100%;
+	font-size: 17px !important;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	max-width: none!important;
+	width: 100%!important;
+	color: #fff;
 }
-
-.viewMoreBtn:hover{
-    background-color: #d2d3d4;
-    border: 2px solid red;
-
+.viewMoreBtn a:hover {
+	background-color: #fff;
+	color: #000;
 }
-    
 /* Shake that badge on hover - thats nice */
 
 .yith-wcbm-badge:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
 }
-
 @keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
 }
-
-
 /*WooCommerce Single Sales Page*/
 
 .woocommerce-cart .woocommerce {
-    margin-top: -40px;
+	margin-top: -40px;
 }
-
-
 li.fusion-custom-menu-item.fusion-menu-cart.fusion-main-menu-cart {
-    display: none !important;
+	display: none !important;
 }
-
 span.woocommerce-Price-amount.amount {
-    color: red;
-    /*font-size: 24px;*/
+	color: red;
+	/*font-size: 24px;*/
 	font-size: 18px;
-    font-weight: 900;
+	font-weight: 900;
 }
-
 button.single_add_to_cart_button.button.alt {
-    color: #fff;
-    background: red;
+	color: #fff;
+	background: red;
 }
-
 .slider-input #slider {
-    width: 95%;
-    height: 20px;
+	width: 95%;
+	height: 20px;
 }
-
 .single-product #custom-handle {
-    width: 5em !important;
-    height: 1.6em;
-    top: 50%;
-    margin-top: -0.8em;
-    text-align: center;
-    line-height: 1.6em;
-    background-color: red !important;
-    border: 0px;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .125);
-    font-weight: 400;
-    color: #fff !important;
-    white-space: nowrap;
+	width: 5em !important;
+	height: 1.6em;
+	top: 50%;
+	margin-top: -0.8em;
+	text-align: center;
+	line-height: 1.6em;
+	background-color: red !important;
+	border: 0px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .125);
+	font-weight: 400;
+	color: #fff !important;
+	white-space: nowrap;
 }
-
-.single-product .ui-slider .ui-slider-handle:before{
-    display: none !important;
+.single-product .ui-slider .ui-slider-handle:before {
+	display: none !important;
 }
-
-
-.quantity{
-  border:none !important;
+.quantity {
+	border: none !important;
 }
-
 .product-border.fusion-separator.sep-double.sep-solid {
 	display: none !important;
 }
-
-.single-product form.cart{
-  margin-top: 0px;
+.single-product form.cart {
+	margin-top: 0px;
 }
-  
-
-.products li.product{
+.products li.product {
 	min-height: 550px !important;
 }
-
-.woocommerce-container .product-title{
+.woocommerce-container .product-title {
 	min-height: 110px !important;
 }
-
 /* page-id-6837  */
 
-
 .page-id-6837 .products li.product {
-    min-height: 330px !important;
+	min-height: 330px !important;
 }
-
 /*WooCommerce Single Sales Page END*/
-
 
 /* Extra StyleSheets - Media Queries */
 
 div#woo-cat-slider-11569 {
-    margin-top: 0px !important;
+	margin-top: 0px !important;
 }
-
-
-
 .home div#sub_categories_widget-2 {
-    display: none;
+	display: none;
 }
-
 .home div#woocommerce_top_rated_products-4 {
-    margin-top: -30px;
+	margin-top: -30px;
 }
-
 .wcps-items-price {
-    display: none;
+	display: none;
 }
-
 /*-- Top Header Save $50 --*/
 
-
-
 span.top-dollars {
-    color: #ff002e;
+	color: #ff002e;
 }
-
 a.save-and-more {
-    font-size: 17px;
-    font-weight: 700;
+	font-size: 17px;
+	font-weight: 700;
 }
-
-
-a.save-and-more:hover{
-  text-decoration:underline;
+a.save-and-more:hover {
+	text-decoration: underline;
 }
-
 .woocommerce-register input.woocommerce-Button.button {
-    color: #fff !important;
-    background: red !important;
+	color: #fff !important;
+	background: red !important;
 }
-
-
 /* Cat Slider*/
 
 .ever-slider .ever-slider-caption {
-    background: #fff;
-  margin-top: -40px;
+	background: #fff;
+	margin-top: -40px;
 }
-
 .fusion-contact-info {
-    font-weight: 700 !important;
+	font-weight: 700 !important;
 }
-
 h3.ever-slider-caption-title {
-    color: #000 !important;
+	color: #000 !important;
 }
-
 .ever-category-slider .ever-slider-caption-btn {
-    background-color: #ed2939;
-    border: 1px solid #ed2939;
-    transition: background-color 0.3s;
-    display: inline-block;
-    line-height: 1.2;
-    padding: 8px 25px;
-    color: #fff;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    left: auto;
-    margin: 10px auto 0;
-    opacity: 1;
-    text-shadow: none;
-    font-family: inherit;
-    font-weight: 300;
-    text-align: center;
+	background-color: #ed2939;
+	border: 1px solid #ed2939;
+	transition: background-color 0.3s;
+	display: inline-block;
+	line-height: 1.2;
+	padding: 8px 25px;
+	color: #fff;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 14px;
+	left: auto;
+	margin: 10px auto 0;
+	opacity: 1;
+	text-shadow: none;
+	font-family: inherit;
+	font-weight: 300;
+	text-align: center;
 }
-
 /* Cat Slider end*/
 
 /* New Search Bar In the Custom Header*/
 
 .autocomplete-suggestions {
-    width: 600px !important;
-    z-index: 21 !important;
-    position: inherit !important;
+	width: 600px !important;
+	z-index: 21 !important;
+	position: inherit !important;
 }
-
 input#yith-s {
-    width: 320px;
-    padding: 10px;
-    margin-left: 0px;
-    text-align: center;
+	width: 320px;
+	padding: 10px;
+	margin-left: 0px;
+	text-align: center;
 }
-
 /*hiding the search button*/
+
 input#yith-searchsubmit {
-    display: none;
+	display: none;
 }
-
 .link-result {
-    margin-left: 30px;
-    background: red;
-    width: 90px;
-    text-align: center;
-    color: #fff;
-    padding: 10px 10px;
+	margin-left: 30px;
+	background: red;
+	width: 90px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 10px;
 }
-
-.link-result a{
-    color:#fff;
+.link-result a {
+	color: #fff;
 }
-
 /* New Search Bar In the Custom Header  END*/
-
 
 /*Search in the sidebar*/
 
 #sidebar .autocomplete-suggestions {
-    width: 360px !important;
-    margin-left: -50px;
+	width: 360px !important;
+	margin-left: -50px;
 }
-
 #sidebar input#yith-s {
-    width: 260px;
+	width: 260px;
 }
-
-
 /*--- More Sidebar Styles ---*/
 
 #sidebar button.button {
-    background: red !important;
-    letter-spacing: 0.12em !important;
-      padding: 8px 8px;
+	background: red !important;
+	letter-spacing: 0.12em !important;
+	padding: 8px 8px;
 }
-
 button.woocommerce-widget-layered-nav-dropdown__submit {
-    background: red;
-    padding: 8px 8px;
-    margin-top: 10px;
-    border-radius: 3px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.12em !important;
-    cursor: pointer;
-    font-size: 12px;
+	background: red;
+	padding: 8px 8px;
+	margin-top: 10px;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.12em !important;
+	cursor: pointer;
+	font-size: 12px;
 }
-
-
-
-
 /*Search in the sidebar end*/
 
-
-
-
-
-
-
 a.login-links {
-    font-weight: 700;
-    text-decoration: underline;
+	font-weight: 700;
+	text-decoration: underline;
 }
-
-.home a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+.home a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
 	background-color: #ed2939;
 }
-
-
-.home #yith_woocommerce_ajax_search-2,
-.home #woocommerce_product_categories-2{
-	display:none;
+.home #yith_woocommerce_ajax_search-2, .home #woocommerce_product_categories-2 {
+	display: none;
 }
-
-
-
-
-
-
-
-
-
 .header-search {
-    width: 350px;
-    float: left;
-    margin-top: 80px;
-    margin-right:20px
+	width: 350px;
+	float: left;
+	margin-top: 80px;
+	margin-right: 20px
 }
-
 .login-section {
-    float: none;
+	float: none;
 	margin-top: 90px;
 }
-
 .fusion-search-form-content {
-    border: 2px solid black;
+	border: 2px solid black;
 }
-
 .currency-switcher {
-    width: 200px;
-    float: right;
-    margin-top: -25px;
+	width: 200px;
+	float: right;
+	margin-top: -25px;
 }
-
-.logged-in .currency-switcher{
+.logged-in .currency-switcher {
 	margin-top: -5px;
 }
-
 ul.dd-options.dd-click-off-close {
-    z-index: 7 !important;
-    position: inherit;
+	z-index: 7 !important;
+	position: inherit;
 }
-
 .hide-me {
-    display: none !important;
+	display: none !important;
 }
-
 input[type="submit"] {
-    background: red;
-    padding: 10px 10px;
-    margin: 0 auto;
-    display: block;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    cursor: pointer;
+	background: red;
+	padding: 10px 10px;
+	margin: 0 auto;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	cursor: pointer;
 }
-
-
-
 /*---  ALL RESPONSIVE STYLES   ---*/
 
 /* Extra small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.98px) {
-  
-      .newBox {
-    	text-align: center;
+	.newBox {
+		text-align: center;
 	}
-
-  .videoContainer {
-    margin-top: -190px !important;
-    margin-bottom: -180px !important;
-  }
-  
-  .header-search,
-  .login-section,
-  .cart-totals,
-  .currency-switcher,
-  .fusion-mobile-menu-icons{
-    width: 100%;
-    display: block;
-    float:none;
-    margin: 10px 0 10px 0;
-   }
-  
+	.videoContainer {
+		margin-top: -190px !important;
+		margin-bottom: -180px !important;
+	}
+	.header-search, .login-section, .cart-totals, .currency-switcher, .fusion-mobile-menu-icons {
+		width: 100%;
+		display: block;
+		float: none;
+		margin: 10px 0 10px 0;
+	}
 }
-
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-  
-    .newBox {
-    	text-align: center;
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.newBox {
+		text-align: center;
 	}
-	
-    .videoContainer {
-    margin-top: -190px !important;
-    margin-bottom: -180px !important;
-  }
-  
-    .header-search,
-  .login-section,
-  .cart-totals,
-  .currency-switcher,
-  .fusion-mobile-menu-icons{
-    width: 100%;
-    display: block;
-    float:none;
-    margin: 10px 0 10px 0;
-   }
-	
+	.videoContainer {
+		margin-top: -190px !important;
+		margin-bottom: -180px !important;
+	}
+	.header-search, .login-section, .cart-totals, .currency-switcher, .fusion-mobile-menu-icons {
+		width: 100%;
+		display: block;
+		float: none;
+		margin: 10px 0 10px 0;
+	}
 }
-
 /* Ipad portrait only */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-	
-      .videoContainer {
-	    margin-top: -170px !important;
-    	margin-bottom: -180px !important;
-      }
-  
-    .header-search,
-  .login-section,
-  .cart-totals,
-  .currency-switcher,
-  .fusion-mobile-menu-icons{
-    width: 100%;
-    display: block;
-    float:none;
-    margin: 10px 0 10px 0;
-   }
-  
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.videoContainer {
+		margin-top: -170px !important;
+		margin-bottom: -180px !important;
+	}
+	.header-search, .login-section, .cart-totals, .currency-switcher, .fusion-mobile-menu-icons {
+		width: 100%;
+		display: block;
+		float: none;
+		margin: 10px 0 10px 0;
+	}
 }
-
-
-
-
-
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { }
 
+@media (min-width: 768px) and (max-width: 991.98px) {}
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 /* Extra large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {}

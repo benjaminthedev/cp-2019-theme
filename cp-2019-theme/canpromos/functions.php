@@ -89,9 +89,8 @@ function woocommerce_after_shop_loop_item_sku_in_cart( $template )  {
 	echo $sku;
 }
 
-
 add_filter( 'woocommerce_loop_add_to_cart_link', 'add_product_link' );
 function add_product_link( $link ) {
 global $product;
-    echo '<button class="viewMoreBtn"><a href="' . esc_url( $product->get_permalink( $product->id ) ) . '" >View Product</a></button>';
+    echo '<a href="' . esc_url( $product->get_permalink( $product->id ) ) . '" class="viewMoreBtn">View Product</a>';
 }
