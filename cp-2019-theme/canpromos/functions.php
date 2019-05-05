@@ -11,7 +11,6 @@ function avada_lang_setup() {
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
 
-
 // Show the attruibutes in single page template
 function cw_woo_attribute(){
     global $product;
@@ -81,6 +80,8 @@ function get_scripts() {
 add_action( 'wp_enqueue_scripts', 'get_scripts' );
 
 
+
+
 //Get SKU next to product price on category pages
 add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_after_shop_loop_item_sku_in_cart', 20, 1);
 function woocommerce_after_shop_loop_item_sku_in_cart( $template )  {
@@ -94,3 +95,11 @@ function add_product_link( $link ) {
 global $product;
     echo '<a href="' . esc_url( $product->get_permalink( $product->id ) ) . '" class="viewMoreBtn">View Product</a>';
 }
+
+
+//This is the function I was going to use on the site but it keep crashing/ whitescreening the whole website. Will keep here for now.
+// function display_woo_sku() {
+//      	global $product;
+//     	return $product->get_sku();
+// }
+// add_shortcode( 'woosku', 'display_woo_sku' );

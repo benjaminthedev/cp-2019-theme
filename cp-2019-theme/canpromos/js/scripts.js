@@ -15,4 +15,3 @@ jQuery(document).ready(function ($) {
     });
     $('.logged-out .yith-wcwl-add-button.show, .show_details_button').hide();
 });
-
