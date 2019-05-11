@@ -1,6 +1,12 @@
 jQuery(document).ready(function ($) {
-    console.log('Working');
-    $(".single-product button.single_add_to_cart_button").after('<a href="#" class="add-request-quote-button button" rel="noopener noreferrer">Get a quote</>');
+    $(".single-product button.single_add_to_cart_button, .single-product button.single_add_to_cart_button.button.alt").after('<a href="#" class="add-request-quote-button button" rel="noopener noreferrer">Get a quote</>');
+
+    $(".postid-7322 .yith-wcwl-add-to-wishlist, .postid-7318 .yith-wcwl-add-to-wishlist, .postid-7306 .yith-wcwl-add-to-wishlist, .postid-7311 .yith-wcwl-add-to-wishlist, .postid-7315 .yith-wcwl-add-to-wishlist  ").after('<a href="#" class="add-request-quote-button button wishlistAfter" rel="noopener noreferrer">Get a quote</>');
+        
+
+    
+
+    
     $(".add-request-quote-button").after('<a href="javascript:void(0);"" class="callback" rel="noopener noreferrer">Get a Call Back</>');
     $(".add-to-wishlist-7235").before('<a href="http://canpromos.ca/request-a-quote/" target="_blank" class="add-request-quote-button button" style="margin-bottom:30px;display: block;" rel="noopener noreferrer">Get a quote</a>');
     $(".woocommerce-cart .checkout-button").before('<a href="http://canpromos.ca/shop/" class="fusion-button button-default fusion-button-default-size button fusion-update-cart" style="margin-top:10px;margin-bottom:0px;display: block;" rel="noopener noreferrer">Continue Shopping</a>');
