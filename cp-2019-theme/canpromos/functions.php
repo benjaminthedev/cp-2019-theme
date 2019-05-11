@@ -103,3 +103,6 @@ global $product;
 //     	return $product->get_sku();
 // }
 // add_shortcode( 'woosku', 'display_woo_sku' );
+
+//Function for 
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );

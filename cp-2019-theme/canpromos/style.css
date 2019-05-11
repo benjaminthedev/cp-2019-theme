@@ -18,6 +18,28 @@ h2.heading-new {
 	margin-top: 20px;
 	color: red!important;
 }
+
+/* Cart and Checkout Styles */
+
+.woocommerce-cart .fusion-page-title-bar,
+.woocommerce-checkout .fusion-page-title-bar{
+	display: none;
+}
+
+.woocommerce-message {
+    display: none;
+}
+
+.woocommerce-checkout form.woocommerce-content-box.full-width.checkout_coupon {
+    display: none !important;
+}
+
+.woocommerce-cart  .avada-myaccount-user,
+.woocommerce-checkout .avada-myaccount-user{
+    display: none;
+}
+
+
 /*-- Single Product Page --*/
 
 div#tm-epo-totals {
@@ -84,6 +106,17 @@ a.add_to_wishlist.single_add_to_wishlist.button.alt {
 	margin-bottom: 250px !important;
 	text-transform: uppercase;
 }
+/* If it wishlist without the add to cart btn */
+
+a.add-request-quote-button.button.wishlistAfter.pum-trigger {
+    padding: 13px 35px !important;
+    margin-top: 20px !important;
+    position: inherit;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
 /* -- Menu Lefthand Side -- */
 
 ul.new-menu-lefty {
@@ -156,7 +189,6 @@ li.fusion-custom-menu-item.fusion-main-menu-search.fusion-last-menu-item {
 	border-radius: 4px;
 }
 /* -- WooCommerce Styles  -- */
-
 li#field_3_10,
 li#field_3_19 {
 	display: none;
