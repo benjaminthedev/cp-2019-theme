@@ -385,6 +385,10 @@ a.save-and-more:hover {
 }
 /* Cat Slider*/
 
+.wc-slide-content-wrapper {
+    background: none !important;
+}
+
 .ever-slider .ever-slider-caption {
 	background: #fff;
 	margin-top: -40px;
@@ -395,7 +399,8 @@ a.save-and-more:hover {
 h3.ever-slider-caption-title {
 	color: #000 !important;
 }
-.ever-category-slider .ever-slider-caption-btn {
+.ever-category-slider .ever-slider-caption-btn,
+.wc-category-slider .wc-slide-button {
 	background-color: #ed2939;
 	border: 1px solid #ed2939;
 	transition: background-color 0.3s;
