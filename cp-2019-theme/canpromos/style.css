@@ -401,7 +401,19 @@ h3.ever-slider-caption-title {
 }
 .ever-category-slider .ever-slider-caption-btn,
 .wc-category-slider .wc-slide-button {
-	background-color: #ed2939;
+
+	background: red;
+    font-size: 17px !important;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    max-width: none!important;
+    width: 70%!important;
+    color: #fff;
+
+	/* background-color: #ed2939;
 	border: 1px solid #ed2939;
 	transition: background-color 0.3s;
 	display: inline-block;
@@ -417,7 +429,7 @@ h3.ever-slider-caption-title {
 	text-shadow: none;
 	font-family: inherit;
 	font-weight: 300;
-	text-align: center;
+	text-align: center; */
 }
 /* Cat Slider end*/
 
