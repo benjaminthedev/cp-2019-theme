@@ -20,4 +20,5 @@ jQuery(document).ready(function ($) {
         console.log('buy btn pushed.');
     });
     $('.logged-out .yith-wcwl-add-button.show, .show_details_button').hide();
+    $('.blog .fusion-page-title-bar').after("<div class=\"container\"><div class=\"fusion-row-new-text\"><p>Learn the best ways to market your brand with the use of promotional marketing products. Our blog gives you the best tips on ordering the right branded merchandise to increase brand awareness within your target market & budget. From creative marketing ideas to case studies of how others have used promotional items to promote their brand, we give you clear direction in aligning your promotional product campaign with your overall business goals.</p></div></div>")
 });

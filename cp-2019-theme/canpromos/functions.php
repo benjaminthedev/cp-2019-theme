@@ -106,3 +106,38 @@ global $product;
 
 //Function for 
 add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
+
+
+
+/**
+ * Add a standard $ value surcharge to all transactions in cart / checkout
+ */
+// add_action( 'woocommerce_cart_calculate_fees','wc_add_surcharge' ); 
+// function wc_add_surcharge() { 
+// global $woocommerce; 
+
+// if ( is_admin() && ! defined( 'DOING_AJAX' ) ) 
+// return;
+
+// $county = array('Canada');
+// // change the $fee to set the surcharge to a value to suit
+// $fee = 65.00;
+
+// if ( in_array( WC()->customer->get_shipping_country(), $county ) ) : 
+//     $woocommerce->cart->add_fee( 'Set-Up Fee', $fee, true, 'standard' );  
+// endif;
+// }
+
+
+// add_action('woocommerce_cart_calculate_fees' , 'add_custom_fees');
+// function add_custom_fees( WC_Cart $cart ){
+//     $fees = 0;
+
+//     foreach( $cart->get_cart() as $item ){
+//        $fees += $item[ 'quantity' ] * 65.00; 
+//     }
+
+//     if( $fees != 0 ){
+//         $cart->add_fee( 'Handling fee', $fees);
+//     }
+// }
