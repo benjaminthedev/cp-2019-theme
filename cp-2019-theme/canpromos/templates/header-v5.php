@@ -28,7 +28,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="header-search">
 			   <?php //get_search_form(); ?>
                
-               <?php echo do_shortcode('[yith_woocommerce_ajax_search]');?>
+               <?php //echo do_shortcode('[yith_woocommerce_ajax_search]');?>
+
+			   <?php echo do_shortcode('[woocommerce_product_search]');?>
 
 			   <?php //echo do_shortcode('[yith_wcwl_wishlist]'); ?>
 			</div>
